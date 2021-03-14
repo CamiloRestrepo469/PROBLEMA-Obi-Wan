@@ -34,6 +34,6 @@ numerocorrecto();
 //no me da por consola 
 // console.log(onsecutivos(nombre,planeta,numeroserie)) 
 
-console.log(numeroserie);
+console.log(nombre,planeta,numeroserie);
 
  
