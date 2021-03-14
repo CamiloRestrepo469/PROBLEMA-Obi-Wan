@@ -20,7 +20,7 @@ function consecutivos(planosfalsos) {
   }
     function numerocorrecto() {
       if(numeroserie<11){
-        consecutivos(nombre + "  estos planos son  verdaderos puede despegar " +"   esto lo sabemos por el numero de serie es :  "+ numeroserie);
+        consecutivos(nombre + "  estos planos son  verdaderos puede despegar,  esto lo sabemos por el numero de serie es :  "+ numeroserie);
       }   
     }
     function falsonumero() {
