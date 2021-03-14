@@ -11,7 +11,7 @@
 
 let nombre="ooootor"
 let planeta = "nepturnoort"
-let edad = "14"
+let edad = 19
 let estatura = "2.50mt"
 
 //tradicional con html 
@@ -20,17 +20,19 @@ function llamar(asocie) {
     
   }
    function myFuerza() {
-      if(edad<"15"){
-          llamar("nombre: "+nombre+" planeta: "+planeta+"  edad: "+edad+" estatura: "+estatura);
+      if(edad<15){
+          llamar("nombre: "+nombre+"  planeta:  "+ planeta +"  edad: "+edad+ "  estatura: "+ estatura + "  eres menor de la exigida vas para Manejo de la fuerza");
       }   
     }
    function mySable() {
-      if(edad>="15"){
-          llamar("nombre: "+nombre+" planeta: "+planeta+"  edad: "+edad);
+      if(edad>=15){
+          llamar("nombre: "+nombre+"   planeta: "+planeta+"    edad: "+ edad +"   tienes la edad requerida para el Manejo del sable de luz");
       }   
   }
   mySable();
   myFuerza();
+
+  console.log(nombre, planeta, edad, estatura);
 
 //   //flecha con html 
 //   let array=['ooootor','nepturnoort','14','2.50mt']=array.forEach(name, index => {
