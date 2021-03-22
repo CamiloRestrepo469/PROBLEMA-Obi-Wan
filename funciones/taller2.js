@@ -9,7 +9,7 @@ let temperaturaMaxima=123
 let temperaturaMinima=-233
 
 function calculartemperaturaluna(temperaturainicial,tempuraturafinal){
-    let temperaturamedia=(temperaturainicial+tempuraturafinal/2)
+    let temperaturamedia=(temperaturainicial+tempuraturafinal)/2
      return (temperaturamedia)
 
 }
@@ -18,9 +18,8 @@ console.log(calculartemperaturaluna("temperatura media de la luna en grados C = 
 console.log("------------------------------------------------------------------------------------------------------")
 
 //flecha 
-let calculartemperaturalunas2=(temperaturainicial,tempuraturafinal)=>{
-    return(temperaturainicial+tempuraturafinal/2)
-}
+let calculartemperaturalunas2=(temperaturainicial,tempuraturafinal)=>(temperaturainicial+tempuraturafinal)/2
+
 
 console.log(calculartemperaturalunas2("temperatura media de la luna en grados C = ",temperaturaMaxima,temperaturaMinima));
 

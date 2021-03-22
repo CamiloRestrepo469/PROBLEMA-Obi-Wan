@@ -21,4 +21,10 @@ function calculardistancia(xinicial,xfinal,yinicial,yfinal){
 
 
 }
-console.log(calculardistancia(cornadainicialx,cornadaFinalx,cornadainicialy,cornadaFinaly)) 
+console.log(calculardistancia(cornadainicialx,cornadaFinalx,cornadainicialy,cornadaFinaly))
+
+// ********************************************************************************************************
+// flecha
+
+let calculardistancia2 = (xinicial,xfinal,yinicial,yfinal)=>Math.sqrt(Math.pow((xfinal-xinicial),2)+Math.pow((yfinal-yinicial),2));
+console.log("la distancia es (tipoflecha): " + calculardistancia2(cornadainicialx,cornadaFinalx,cornadainicialy,cornadaFinaly));

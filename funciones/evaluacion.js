@@ -35,7 +35,15 @@ function llamar(asocie) {
   console.log(nombre, planeta, edad, estatura);
 
 //   //flecha con html 
-//   let array=['ooootor','nepturnoort','14','2.50mt']=array.forEach(name, index => {
-//       console.log(index + 1+'. '+name)
-      
-//   });
+
+window.addEventListener('load', (asocie) => {
+  document.getElementById("nave").innerHTML=asocie;
+  (myFuerza) => {myFuerza === edad<15 ? "nombre: "+nombre+"  planeta:  "+ planeta +"  edad: "+edad+ "  estatura: "+ estatura + "  eres menor de la exigida vas para Manejo de la fuerza"  :  "estas muy viejo ya a sacara cc " };
+  (mySable) => {mySable === edad>=15 ? "nombre: "+nombre+"   planeta: "+planeta+"    edad: "+ edad +"   tienes la edad requerida para el Manejo del sable de luz" : "eres un pelaito, te falta entrenar fuerza "};
+
+}) ;
+
+mySable();
+myFuerza();
+
+console.log(nombre, planeta, edad, estatura);

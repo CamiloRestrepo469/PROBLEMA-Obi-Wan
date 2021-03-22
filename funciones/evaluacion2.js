@@ -47,7 +47,7 @@
 //   }
 
 // }
-// operador ternario
+// operador ternario es igual(condicion=== parametro? afirmacion : negacion ; )
 let robarPlanos2=(idplano,despegar)=>{
   if(idplano>0&&idplano<=10){
     let mensaje="el plano que se consiguio fue el "+ idplano;
@@ -60,10 +60,10 @@ let robarPlanos2=(idplano,despegar)=>{
 
 }
 
-console.log(robarPlanos(5));
+console.log(robarPlanos(2));
 
-
-robarPlanos2(5,function(error,mensajeOK){
+// flecha
+robarPlanos2(33,function(error,mensajeOK){
 
   if(error){
     console.log(error);
