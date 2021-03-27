@@ -23,5 +23,6 @@ let split=textSara.split(": ")[1];
 console.log(split);
 
 //flecha
+
 let palabraclave=(codigo)=>console.log(codigo.split(": ")[1]);
 palabraclave(textNodin);
