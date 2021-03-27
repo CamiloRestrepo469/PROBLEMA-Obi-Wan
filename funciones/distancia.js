@@ -26,5 +26,5 @@ console.log(calculardistancia(cornadainicialx,cornadaFinalx,cornadainicialy,corn
 // ********************************************************************************************************
 // flecha
 
-let calculardistancia2 = (xinicial,xfinal,yinicial,yfinal)=>Math.sqrt(Math.pow((xfinal-xinicial),2)+Math.pow((yfinal-yinicial),2));
-console.log("la distancia es (tipoflecha): " + calculardistancia2(cornadainicialx,cornadaFinalx,cornadainicialy,cornadaFinaly));
+let calculardistancia2 = (xinicial,xfinal,yinicial,yfinal)=>Math.sqrtRAIZ(POTENCIA(xfinal-xinicial)+POTENCIA(yfinal-yinicial));
+console.log("la distancia es   :  " + calculardistancia2(cornadainicialx,cornadaFinalx,cornadainicialy,cornadaFinaly));
