@@ -10,37 +10,30 @@
 // Configure la rutina necesaria para despegar la nave utilizando
 // callbacks
 
-let robarPlanos2=(idplano,despegar)=>{
-  if(idplano>0&&idplano<=10){
-    let mensaje="el plano que se consiguio fue el "+ idplano;
-    despegar(null,mensaje)
+let robarPlanos=(idPlano, despegar) => {
 
+  if(idPlano>0 && idPlano<=10){
+
+      let mensaje="El plano que se consiguio es "+idPlano
+      despegar (null,mensaje)
   }else{
-    let error="pilas no te has robodo un plano real "
-    despegarn(error,null);
+      let error="los planos falsos tienen números de serie consecutivos comenzando desde el #11"+idPlano
+      despegar (error, null)
   }
 
-}
+}  
 
-console.log(robarPlanos(2));
-
-// flecha
-robarPlanos2(33,function(error,mensajeOK){
+robarPlanos(350,function(error,mensajeOK){
 
   if(error){
-    console.log(error);
-    console.log("nos quedamos ");
+
+      console.log(error)
+      console.log("no puedes despegue")
   }else{
-      console.log(mensajeOK);
-      console.log("Estamos despegando");
+
+    console.log(mensajeOK)
+    console.log("Estamos despegando")
   }
-  
-
-
-
-});
-console.log(robarPlanos2(55));
-
-
+})
 
  
