@@ -10,44 +10,6 @@
 // Configure la rutina necesaria para despegar la nave utilizando
 // callbacks
 
-
-// let nombre="Chewbacca y Han"
-// let planeta = "yavin4"
-// let numeroserie= 5
-// //tradicional con html 
-// function consecutivos(planosfalsos) {
-//     document.getElementById("nave").innerHTML = planosfalsos;  
-//   }
-//     function numerocorrecto() {
-//       if(numeroserie>011&&numeroserie<=10){
-//         consecutivos(nombre + "  estos planos son  verdaderos puede despegar,  esto lo sabemos por el numero de serie es :  "+ numeroserie);
-//       }   
-//     }
-//     function falsonumero() {
-//       if(numeroserie>=11){
-//         consecutivos("estos planos son falsos No puede despegar de este planeta  "+ planeta +"   esto lo sabemos por el numero de serie es : "+ numeroserie);
-//       }   
-//     }
-
-// falsonumero();  
-// numerocorrecto();
-// //no me da por consola 
-// // console.log(onsecutivos(nombre,planeta,numeroserie)) 
-
-// console.log(nombre,planeta,numeroserie);
-
-// function robarPlanos(idplano){
-//   if(idplano>0&&idplano<=10){
-//     let mensaje="el plano que se consiguio fue el "+ idplano;
-//     return(mensaje)
-
-//   }else{
-//     let error="pilas no te has robodo un plano real "
-//     return(error);
-//   }
-
-// }
-// operador ternario es igual(condicion=== parametro? afirmacion : negacion ; )
 let robarPlanos2=(idplano,despegar)=>{
   if(idplano>0&&idplano<=10){
     let mensaje="el plano que se consiguio fue el "+ idplano;
@@ -77,6 +39,7 @@ robarPlanos2(33,function(error,mensajeOK){
 
 
 });
+console.log(robarPlanos2(55));
 
 
 

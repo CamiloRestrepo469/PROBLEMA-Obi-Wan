@@ -39,6 +39,7 @@ function llamar(asocie) {
 window.addEventListener('load', (asocie) => {
   document.getElementById("nave").innerHTML=asocie;
   (myFuerza) => {myFuerza === edad<15 ? "nombre: "+nombre+"  planeta:  "+ planeta +"  edad: "+edad+ "  estatura: "+ estatura + "  eres menor de la exigida vas para Manejo de la fuerza"  :  "estas muy viejo ya a sacara cc " };
+  
   (mySable) => {mySable === edad>=15 ? "nombre: "+nombre+"   planeta: "+planeta+"    edad: "+ edad +"   tienes la edad requerida para el Manejo del sable de luz" : "eres un pelaito, te falta entrenar fuerza "};
 
 }) ;
